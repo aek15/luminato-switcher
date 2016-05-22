@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gui>
+  <properties>
+    <project>Luminato_switcher</project>
+    <designer>
+    </designer>
+    <size autoposition="scale">
+      <portrait width="320" height="568" />
+      <landscape width="568" height="320" />
+    </size>
+    <autoposition />
+    <imagefolder>
+    </imagefolder>
+    <debug loaderrors="0" connectionerrors="0" />
+    <devices>
+      <device name="Dell Venue 7 3730">0910AA902CF3A79393B498C6A404D6EC</device>
+      <device name="asus ASUS_Z00AD">9D6A471C0669C9D0F25B8D13BAF6E047</device>
+    </devices>
+  </properties>
+  <themes>
+    <theme type="button" name=".btn_edit[state='0']"><![CDATA[padding: 0px 0px 1px 0px; background-image: url(btn_edit_off.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_edit[state='1']"><![CDATA[padding: 0px 0px 1px 0px; background-image: url(btn_edit_on.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_list_footer[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_list_footer_off.png); color: Black; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: left; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_list_footer[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_list_footer_on.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: left; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_list_header[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_list_header_off.png); color: Black; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: left; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_list_header[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_list_header_on.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: left; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_list[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_list_off.png); color: Black; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: left; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_list[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_list_on.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: left; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_rect_104x62_stretch[state='0']"><![CDATA[padding: 0px 25px 1px 25px; -webkit-border-image: url(btn_rect_104x62_off.png) 0 25 1 25; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_rect_104x62_stretch[state='1']"><![CDATA[padding: 0px 25px 1px 25px; -webkit-border-image: url(btn_rect_104x62_on.png) 0 25 1 25; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".text_sample"><![CDATA[ color: White; font-size: 12px; font-family: 'Verdana'; text-align: center; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="input" name=".cfblue2_white"><![CDATA[ background-color: White; border-width: 0px; color: Black; font-size: 18px; font-family: 'Arial'; text-align: left; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".red_button[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(red-orb.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".red_button[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(GreenButton.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+  </themes>
+  <scripts>
+    <script name="cm_req.js" />
+  </scripts>
+  <page name="Startup" j="0" tags="" transition="None" subtype="None" time="0" ease="" start="1">
+    <portrait>
+      <btn j="1" x="10" y="15" w="104" h="62" t="btn_rect_104x62_stretch" flip="None" sim="1" l="0" s="1" tags="" js="l_login()">
+        <inactive s="0">Login</inactive>
+        <active s="0">Login</active>
+      </btn>
+      <btn j="100" x="284" y="530" w="20" h="20" t="red_button" flip="None" sim="2" l="0" s="1" tags="">
+        <inactive s="100">
+        </inactive>
+        <active s="100">
+        </active>
+      </btn>
+      <txt j="50" x="121" y="509" w="145" h="59" t="text_sample" wrap="False" l="0" tags="">Статус авторизации:</txt>
+      <btn j="4" x="9" y="319" w="302" h="45" t="btn_list_footer" flip="None" sim="1" l="1" s="1" tags="" js="service_change(1,1,3,1,1)">
+        <inactive s="40">   НТВ+</inactive>
+        <active s="40">   НТВ+</active>
+      </btn>
+      <btn j="3" x="9" y="268" w="302" h="44" t="btn_list" flip="None" sim="1" l="1" s="1" tags="" js="service_change(1,1,2,1,1)">
+        <inactive s="30">   BeIn</inactive>
+        <active s="30">   BeIn</active>
+      </btn>
+      <btn j="2" x="10" y="215" w="302" h="45" t="btn_list_header" flip="None" sim="1" l="1" s="1" tags="" js="service_change(1,1,1,1,1)">
+        <inactive s="20">   Sky</inactive>
+        <active s="20">   Sky</active>
+      </btn>
+      <txt j="50" x="0" y="177" w="169" h="38" t="text_sample" wrap="False" l="0" tags="">Выберите сервис:</txt>
+      <btn j="1001" x="191" y="17" w="104" h="62" t="btn_rect_104x62_stretch" flip="None" sim="1" l="0" s="1" tags="" js="luminato_logout()">
+        <inactive s="0">Logout</inactive>
+        <active s="0">Logout</active>
+      </btn>
+      <txt j="200" x="9" y="443" w="127" h="40" t="text_sample" wrap="False" l="0" tags="">Текущий сервис:</txt>
+      <txt j="201" x="140" y="446" w="163" h="35" t="text_sample" wrap="False" l="0" tags="">
+      </txt>
+    </portrait>
+    <landscape />
+  </page>
+</gui>
