@@ -49,15 +49,15 @@
         </active>
       </btn>
       <txt j="50" x="121" y="509" w="145" h="59" t="text_sample" wrap="False" l="0" tags="">Статус авторизации:</txt>
-      <btn j="4" x="9" y="319" w="302" h="45" t="btn_list_footer" flip="None" sim="1" l="1" s="1" tags="" js="service_change(1,1,3,1,1)">
+      <btn j="4" x="9" y="319" w="302" h="45" t="btn_list_footer" flip="None" sim="1" l="1" s="1" tags="" js="service_change(6,3,96,2,1)">
         <inactive s="40">   НТВ+</inactive>
         <active s="40">   НТВ+</active>
       </btn>
-      <btn j="3" x="9" y="268" w="302" h="44" t="btn_list" flip="None" sim="1" l="1" s="1" tags="" js="service_change(1,1,2,1,1)">
+      <btn j="3" x="9" y="268" w="302" h="44" t="btn_list" flip="None" sim="1" l="1" s="1" tags="" js="service_change(6,2,94,2,1)">
         <inactive s="30">   BeIn</inactive>
         <active s="30">   BeIn</active>
       </btn>
-      <btn j="2" x="10" y="215" w="302" h="45" t="btn_list_header" flip="None" sim="1" l="1" s="1" tags="" js="service_change(1,1,1,1,1)">
+      <btn j="2" x="10" y="215" w="302" h="45" t="btn_list_header" flip="None" sim="1" l="1" s="1" tags="" js="service_change(6,1,93,2,1)">
         <inactive s="20">   Sky</inactive>
         <active s="20">   Sky</active>
       </btn>
