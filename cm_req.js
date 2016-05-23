@@ -7,7 +7,7 @@
 
 
 //chassis details
-var main_url  = "192.168.1.36" 
+var main_url  = "10.3.6.123" 
 var login_url = "http://" + main_url + "/login/" 	//url for login to the chassis
 var url       = "http://" + main_url + "/api/v1"	//url for main work
 
@@ -34,15 +34,15 @@ var login = JSON.stringify(data) //Convert login data to JSON Format
 
 /* Service switching function.
  * Arguments description: 
- * 1. Slot number of a Luminato IP MUX module
- * 2. Input number of a Luminato module (logical value displaying in Luminato WEB GUI for INPUT GE or id in physical interface)
- * 3. Real SID of the Incoming Service needed to be switched on
- * 4. Output number of the Luminato module (logical value displaying in Luminato WEB GUI for OUTPUT GE or id of physical output MPTS)
- * 5. ID of physical input interface for IP MUX always 1 (can be checked in WEB GUI by holding mouse pointer on the (I) icon.
+ * 1. Slot number of a Luminato module
+ * 2. Input number of a Luminato module (logical value displaying in Luminato WEB GUI for "Output device" or id of physical interface)
+ * 3. Real SID of the Service needed to switch
+ * 4. Output number of the Luminato module (logical value displaying in Luminato WEB GUI for "Input device" or id of physical interface)
+ * 5. Service ID. This is not real SID of the service. It is logical id of the service in particular output.
  */
 function service_change(m, ii, ins, out, os){
 	var data_service = {"enable": "true",
-                        "serviceId": "100", //doesn't work. SID of output service must be pre-defined eg. by WEB gui
+                        "serviceId": "1",
                         "inputRef": "in/"+ii+"/services/"+ ins				
 	};
 	var datas = JSON.stringify(data_service)
