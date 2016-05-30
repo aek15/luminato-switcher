@@ -11,6 +11,9 @@ var main_url  = "192.168.1.36"
 var login_url = "http://" + main_url + "/login/" 	//url for login to the chassis
 var url       = "http://" + main_url + "/api/v1"	//url for main work
 
+
+
+
 function l_login() {
 
 var data = {
@@ -42,8 +45,10 @@ var login = JSON.stringify(data) //Convert login data to JSON Format
  */
 function service_change(m, ii, ins, out, os){
 	var data_service = {"enable": "true",
-                        "serviceId": "100", //doesn't work. SID of output service must be pre-defined eg. by WEB gui
-                        "inputRef": "in/"+ii+"/services/"+ ins				
+                        "serviceId": "40", //doesn't work. SID of output service must be pre-defined eg. by WEB gui
+                        "pmtPid": "4000",
+						"startPid": "4001",
+						"inputRef": "in/"+ii+"/services/"+ ins				
 	};
 	var datas = JSON.stringify(data_service)
 	CF.request(url+"/modules/"+m+"/out/"+out+"/services/"+os, "PUT", null, datas, function(status, headers, body){

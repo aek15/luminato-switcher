@@ -48,19 +48,19 @@
         </active>
       </btn>
       <txt j="50" x="121" y="509" w="145" h="59" t="text_sample" wrap="False" l="0" tags="">Статус авторизации:</txt>
-      <btn j="4" x="9" y="319" w="302" h="45" t="btn_list_footer" flip="None" sim="1" l="1" s="1" tags="" js="service_change(6,3,96,2,1)">
-        <inactive s="40">   НТВ+</inactive>
-        <active s="40">   НТВ+</active>
+      <btn j="4" x="10" y="331" w="302" h="45" t="btn_list" flip="None" sim="1" l="0" s="1" tags="" js="service_change(6,3,1,1,1)">
+        <inactive s="40">   Service 3</inactive>
+        <active s="40">   Service 3</active>
       </btn>
-      <btn j="3" x="9" y="268" w="302" h="44" t="btn_list" flip="None" sim="1" l="1" s="1" tags="" js="service_change(6,2,94,2,1)">
-        <inactive s="30">   BeIn</inactive>
-        <active s="30">   BeIn</active>
+      <btn j="3" x="10" y="280" w="302" h="44" t="btn_list" flip="None" sim="1" l="0" s="1" tags="" js="service_change(6,2,11,1,1)">
+        <inactive s="30">   Service 2</inactive>
+        <active s="30">   Service 2</active>
       </btn>
-      <btn j="2" x="10" y="215" w="302" h="45" t="btn_list_header" flip="None" sim="1" l="1" s="1" tags="" js="service_change(6,1,93,2,1)">
-        <inactive s="20">   Sky</inactive>
-        <active s="20">   Sky</active>
+      <btn j="2" x="11" y="227" w="302" h="45" t="btn_list_header" flip="None" sim="1" l="0" s="1" tags="" js="service_change(6,1,11,1,1)">
+        <inactive s="20">   Service 1</inactive>
+        <active s="20">   Service 1</active>
       </btn>
-      <txt j="50" x="0" y="177" w="169" h="38" t="text_sample" wrap="False" l="0" tags="">Выберите сервис:</txt>
+      <txt j="150" x="5" y="185" w="169" h="38" t="text_sample" wrap="False" l="0" tags="">Выберите сервис:</txt>
       <btn j="1001" x="191" y="17" w="104" h="62" t="btn_rect_104x62_stretch" flip="None" sim="1" l="0" s="1" tags="" js="luminato_logout()">
         <inactive s="0">Logout</inactive>
         <active s="0">Logout</active>
@@ -68,6 +68,14 @@
       <txt j="200" x="9" y="443" w="127" h="40" t="text_sample" wrap="False" l="0" tags="">Текущий сервис:</txt>
       <txt j="201" x="140" y="446" w="163" h="35" t="text_sample" wrap="False" l="0" tags="">
       </txt>
+      <btn j="5" x="9" y="383" w="302" h="45" t="btn_list_footer" flip="None" sim="0" l="0" s="1" tags="" js="service_change(6,4,2,1,1)">
+        <inactive s="50">   Service 4</inactive>
+        <active s="50">   Service 4</active>
+      </btn>
+      <input j="0" s="301" x="139" y="143" w="39" h="24" pass="0" autoFocus="0" f="4" t="cfblue2_white" l="0" tags="">Text</input>
+      <input j="0" s="302" x="180" y="143" w="39" h="24" pass="0" autoFocus="0" f="4" t="cfblue2_white" l="0" tags="">Text</input>
+      <input j="0" s="303" x="222" y="143" w="39" h="24" pass="0" autoFocus="0" f="4" t="cfblue2_white" l="0" tags="">Text</input>
+      <input j="0" s="304" x="263" y="143" w="39" h="24" pass="0" autoFocus="0" f="4" t="cfblue2_white" l="0" tags="">Text</input>
     </portrait>
     <landscape />
   </page>
