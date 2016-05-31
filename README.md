@@ -1,5 +1,4 @@
 # luminato-switcher
-First working demo
 Это проект для CommandFusion GuiDesigner.
 Получившееся приложение предоставляет простой интерфейс для __платной версии__ программы Iviewer для переключения каналов в выходном мультиплексе на шасси Luminato 
 c модулем IP-мультиплексора (LIM). Версия ПО Luminato 8. (** поддержка JavaScirpt доступна только в платной версии Iviewer **)
